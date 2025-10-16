@@ -1,0 +1,45 @@
+nace_code,nace_description,emission_factor_kgco2e_per_eur,total_output_eur,num_countries,example_sectors,data_source,year
+01.11,"Growing of cereals (except rice), leguminous crops and oil seeds",0.6760661437778687,600946399450.5717,49,Oil seeds; Wheat,EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP,2022
+01.12,Growing of rice,3.676724468194199,354554811933.6623,27,Paddy rice,EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP,2022
+01.13,"Growing of vegetables and melons, roots and tubers",0.2686719442163022,2107477634826.0261,49,"Sugar cane, sugar beet; Vegetables, fruit, nuts",EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP,2022
+01.16,Growing of fibre crops,0.3279064150018798,122065120842.17668,37,Plant-based fibers,EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP,2022
+01.19,Growing of other non-perennial crops,0.6291646426756642,658394072947.771,49,Cereal grains nec; Crops nec,EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP,2022
+01.41,Raising of dairy cattle,4.531907677580275,817737959196.7288,49,Cattle; Raw milk,EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP,2022
+01.45,Raising of sheep and goats,0.9062933503150395,14469472412.164236,49,"Wool, silk-worm cocoons",EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP,2022
+01.46,Raising of swine/pigs,0.44929510169452985,412145820465.8511,49,Pigs,EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP,2022
+01.47,Raising of poultry,0.3773215376122649,471480566640.0576,49,Poultry,EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP,2022
+01.49,Raising of other animals,1.647928170670429,237389629865.8785,49,Animal products nec; Meat animals nec,EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP,2022
+02.20,Logging,0.35754048670830046,178612145815.5437,48,"Products of forestry, logging and related services (02)",EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP,2022
+03.11,Marine fishing,0.17696725039213013,482113557034.3228,49,Fish and other fishing products; services incidental of fishing (05),EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP,2022
+05.10,Mining of hard coal,1.5277499068635956,1048345438875.5996,35,Other Bituminous Coal; Anthracite,EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP,2022
+05.20,Unknown NACE description,1.577814138265345,9711223453.207947,23,Lignite/Brown Coal,EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP,2022
+06.10,Extraction of crude petroleum,0.676416611925337,3033618518872.0967,44,"Crude petroleum and services related to crude oil extraction, excluding surveying; Other Hydrocarbons",EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP,2022
+06.20,Extraction of natural gas,1.4435743530284137,730027660528.3159,45,"Natural Gas Liquids; Natural gas and services related to natural gas extraction, excluding surveying",EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP,2022
+07.10,Mining of iron ores,0.10519289290717042,12724580372.653486,26,Iron ores,EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP,2022
+07.21,Mining of uranium and thorium ores,3.5696440391273736,577026349.5563256,16,Uranium and thorium ores (12),EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP,2022
+07.29,Mining of other non-ferrous metal ores,0.228982190806541,118710250399.57643,43,Other non-ferrous metal ores and concentrates; Aluminium ores and concentrates,EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP,2022
+08.11,Quarrying of ornamental and building stone,0.13913936992670495,88349770852.68228,47,Stone,EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP,2022
+08.12,Operation of gravel and sand pits,0.22159849278803265,123878593958.89398,48,Sand and clay,EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP,2022
+08.91,Mining of chemical and fertiliser minerals,0.4239270368013862,32391242100.87336,42,"Chemical and fertilizer minerals, salt and other mining and quarrying products n.e.c.",EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP,2022
+08.92,Unknown NACE description,0.67978126482373,4082251310.3975873,19,BKB/Peat Briquettes; Peat,EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP,2022
+10.11,Processing and preserving of meat,0.3581232257192571,391608473116.4962,49,Products of meat cattle,EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP,2022
+10.12,Processing and preserving of poultry meat,0.22566281183750608,807140213849.9647,49,Products of meat pigs; Products of meat poultry,EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP,2022
+10.13,Production of meat and poultry meat products,0.12331576679725269,265436494960.26328,49,Meat products nec,EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP,2022
+10.41,Unknown NACE description,0.27781004193661946,171480192138.49008,49,products of Vegetable oils and fats,EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP,2022
+10.51,Operation of dairies and cheese making,0.1707348956814501,615487324233.2112,49,Dairy products,EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP,2022
+10.61,Unknown NACE description,0.34375489623445055,233764918400.61066,49,Processed rice,EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP,2022
+10.81,Manufacture of sugar,0.3715874150690689,63034327162.30891,49,Sugar,EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP,2022
+10.89,Manufacture of other food products n.e.c.,0.06697229581288344,3836643326244.278,49,Food products nec,EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP,2022
+11.07,Manufacture of soft drinks,0.11511490022643821,929777169482.1055,49,Beverages,EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP,2022
+17.11,Manufacture of pulp,0.8780855573782957,151120642754.4641,48,Pulp,EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP,2022
+19.20,Manufacture of refined petroleum products,0.2652374231704683,1761297964304.897,49,Bitumen; Kerosene,EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP,2022
+20.13,Manufacture of other inorganic basic chemicals,0.026312039541872244,57372734737.049545,38,Nuclear fuel,EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP,2022
+20.15,Manufacture of fertilisers and nitrogen compounds,0.5706245219377369,749702211297.6803,47,N-fertiliser; P- and other fertiliser,EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP,2022
+20.16,Manufacture of plastics in primary forms,0.2992970319291314,1453549051028.017,47,"Plastics, basic",EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP,2022
+23.13,Manufacture of hollow glass,0.1840765028414204,745446464363.8033,47,Glass and glass products,EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP,2022
+23.49,Manufacture of other ceramic products,0.31227644337310617,612063650367.6487,48,Ceramic goods,EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP,2022
+23.51,Manufacture of cement,3.6946786276941617,645177989256.9841,48,"Cement, lime and plaster",EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP,2022
+23.99,Manufacture of other non-metallic mineral products n.e.c.,0.5427444839164621,623415263574.5924,48,Other non-metallic mineral products,EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP,2022
+24.42,Aluminium production,0.1399621750137584,551892296412.1187,49,Aluminium and aluminium products,EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP,2022
+24.45,Other non-ferrous metal production,0.16395801239582228,191054580576.7343,49,Other non-ferrous metal products,EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP,2022
+35.11,Production of electricity,10.256016479813212,1212080031876.6172,49,Electricity by biomass and waste; Electricity by coal,EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP,2022
