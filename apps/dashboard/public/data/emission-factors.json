@@ -1,0 +1,62 @@
+[
+  {
+    "id": "energy-grid-electricity",
+    "category": "Energy",
+    "name": "Grid electricity, medium voltage",
+    "scope": "upstream",
+    "unit": "kgCO2e/kWh",
+    "year": 2023,
+    "region": "Global",
+    "value": 0.475
+  },
+  {
+    "id": "energy-natural-gas",
+    "category": "Energy",
+    "name": "Natural gas combustion",
+    "scope": "onsite",
+    "unit": "kgCO2e/m3",
+    "year": 2023,
+    "region": "North America",
+    "value": 1.85
+  },
+  {
+    "id": "transport-diesel-freight",
+    "category": "Transport",
+    "name": "Heavy goods vehicle, diesel, average load",
+    "scope": "downstream",
+    "unit": "kgCO2e/tkm",
+    "year": 2022,
+    "region": "Europe",
+    "value": 0.105
+  },
+  {
+    "id": "transport-air-short-haul",
+    "category": "Transport",
+    "name": "Air travel, short haul economy",
+    "scope": "downstream",
+    "unit": "kgCO2e/pkm",
+    "year": 2023,
+    "region": "Global",
+    "value": 0.158
+  },
+  {
+    "id": "materials-steel-primary",
+    "category": "Materials",
+    "name": "Primary steel production",
+    "scope": "upstream",
+    "unit": "kgCO2e/kg",
+    "year": 2021,
+    "region": "Global",
+    "value": 2.3
+  },
+  {
+    "id": "waste-landfill-mixed",
+    "category": "Waste",
+    "name": "Landfill, mixed municipal waste",
+    "scope": "downstream",
+    "unit": "kgCO2e/kg",
+    "year": 2022,
+    "region": "Global",
+    "value": 0.65
+  }
+]

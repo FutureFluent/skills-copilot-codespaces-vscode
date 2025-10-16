@@ -20,6 +20,11 @@
 *.tar
 *.zip
 
+# Node and build artifacts #
+###########################
+node_modules/
+dist/
+
 # Logs and databases #
 ######################
 *.log
