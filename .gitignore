@@ -35,3 +35,14 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Node & frontend artifacts #
+node_modules/
+**/node_modules/
+# Vite / build output
+/dist/
+**/dist/
+.vite/
+**/.vite/
+*.tsbuildinfo
+.cache/
