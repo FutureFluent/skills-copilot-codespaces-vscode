@@ -1,0 +1,18 @@
+{
+  "name": "emission-factor-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare:emission-factors": "tsx scripts/prepare-emission-factors.ts"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "csv-parse": "^5.5.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "tsx": "^4.16.0",
+    "typescript": "^5.4.5"
+  }
+}

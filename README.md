@@ -15,6 +15,24 @@ _GitHub Copilot can help you code by offering autocomplete-style suggestions rig
 
 </header>
 
+## Emission factor dataset preparation
+
+This repository now includes a reproducible data preparation workflow for the emission factor dashboard. The script at `scripts/prepare-emission-factors.ts` reads the baseline NACE emission factor CSV contained in `EmissionFactorDatabase-Portable.zip`, derives helper metadata, and writes the processed dataset to `dashboard/public/data/emission_factors.json` for UI consumption.
+
+### Prerequisites
+
+```bash
+npm install
+```
+
+### Generate the dashboard dataset
+
+```bash
+npm run prepare:emission-factors
+```
+
+The script normalizes numeric fields, attaches concordance metadata, and computes range statistics that are useful for visual encodings. Generated files are committed under `dashboard/public/data`, while large raw extracts should continue to live outside the repository (see `.gitignore` rules for `data/raw/`).
+
 <!--
   <<< Author notes: Step 1 >>>
   Choose 3-5 steps for your course.

@@ -1,0 +1,1550 @@
+{
+  "metadata": {
+    "generatedAt": "2025-10-16T14:06:02.455Z",
+    "recordCount": 44,
+    "ranges": {
+      "emissionFactorKgCO2ePerEUR": {
+        "min": 0.026312,
+        "max": 10.256016,
+        "mean": 1.000135,
+        "median": 0.357832,
+        "p10": 0.128063,
+        "p90": 2.993129,
+        "unit": "kgCO2e/€"
+      },
+      "totalOutputEUR": {
+        "min": 577026349.556326,
+        "max": 3836643326244.278,
+        "mean": 630189751560.0669,
+        "median": 441813193552.95435,
+        "p10": 19846003318.776966,
+        "p90": 1381108345282.598,
+        "unit": "€"
+      },
+      "numCountries": {
+        "min": 16,
+        "max": 49,
+        "mean": 44.295455,
+        "median": 48.5,
+        "p10": 29.4,
+        "p90": 49,
+        "unit": "countries"
+      }
+    },
+    "sectorSummaries": [
+      {
+        "section": {
+          "code": "A",
+          "name": "Agriculture, forestry and fishing"
+        },
+        "emissionFactorRange": {
+          "min": 0.176967,
+          "max": 4.531908,
+          "mean": 1.168816,
+          "median": 0.53923,
+          "p10": 0.274595,
+          "p90": 3.473844
+        },
+        "totalOutputRange": {
+          "min": 14469472412.164236,
+          "max": 2107477634826.0261,
+          "mean": 538115599285.89624,
+          "median": 441813193552.95435,
+          "p10": 127719823339.51338,
+          "p90": 801803570571.833
+        }
+      },
+      {
+        "section": {
+          "code": "B",
+          "name": "Mining and quarrying"
+        },
+        "emissionFactorRange": {
+          "min": 0.105193,
+          "max": 3.569644,
+          "mean": 0.963074,
+          "median": 0.676417,
+          "p10": 0.139139,
+          "p90": 1.577814
+        },
+        "totalOutputRange": {
+          "min": 577026349.556326,
+          "max": 3033618518872.0967,
+          "mean": 472946959733.9867,
+          "median": 88349770852.68228,
+          "p10": 4082251310.397588,
+          "p90": 1048345438875.5996
+        }
+      },
+      {
+        "section": {
+          "code": "C",
+          "name": "Manufacturing"
+        },
+        "emissionFactorRange": {
+          "min": 0.026312,
+          "max": 3.694679,
+          "mean": 0.456516,
+          "median": 0.271524,
+          "p10": 0.110301,
+          "p90": 0.601371
+        },
+        "totalOutputRange": {
+          "min": 57372734737.049545,
+          "max": 3836643326244.278,
+          "mean": 742823264413.0858,
+          "median": 613775487300.4299,
+          "p10": 142312011195.2486,
+          "p90": 1484323942355.7056
+        }
+      },
+      {
+        "section": {
+          "code": "D",
+          "name": "Electricity, gas, steam and air conditioning supply"
+        },
+        "emissionFactorRange": {
+          "min": 10.256016,
+          "max": 10.256016,
+          "mean": 10.256016,
+          "median": 10.256016,
+          "p10": 10.256016,
+          "p90": 10.256016
+        },
+        "totalOutputRange": {
+          "min": 1212080031876.6172,
+          "max": 1212080031876.6172,
+          "mean": 1212080031876.6172,
+          "median": 1212080031876.6172,
+          "p10": 1212080031876.6172,
+          "p90": 1212080031876.6172
+        }
+      }
+    ],
+    "sources": [
+      "EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP"
+    ],
+    "notes": [
+      "Emission intensities are provided in kilograms of CO2 equivalent per euro of output.",
+      "Total output values and derived statistics are denominated in euros (current prices).",
+      "Normalized fields are scaled between 0 and 1 using the observed minimum and maximum values to support visual encodings."
+    ]
+  },
+  "records": [
+    {
+      "naceCode": "01.11",
+      "naceDivision": "01",
+      "naceDescription": "Growing of cereals (except rice), leguminous crops and oil seeds",
+      "displayName": "01.11 — Growing of cereals (except rice), leguminous crops and oil seeds",
+      "section": {
+        "code": "A",
+        "name": "Agriculture, forestry and fishing"
+      },
+      "emissionFactorKgCO2ePerEUR": 0.676066,
+      "emissionFactorTonnesCO2ePerMEUR": 676.066144,
+      "emissionFactorNormalized": 0.063516,
+      "totalOutputEUR": 600946399450.5717,
+      "totalOutputMEUR": 600946.399451,
+      "totalOutputNormalized": 0.156507,
+      "numCountries": 49,
+      "dataSource": "EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP",
+      "year": 2022,
+      "exampleSectors": [
+        "Oil seeds",
+        "Wheat"
+      ],
+      "exiobaseActivities": [
+        "Cereal grains nec",
+        "Oil seeds",
+        "Vegetables, fruit, nuts",
+        "Wheat"
+      ],
+      "exiobaseCodes": [
+        "p01.b",
+        "p01.c",
+        "p01.d",
+        "p01.e"
+      ],
+      "longDescription": "Growing of cereals (except rice), leguminous crops and oil seeds (e.g. Oil seeds, Wheat)"
+    },
+    {
+      "naceCode": "01.12",
+      "naceDivision": "01",
+      "naceDescription": "Growing of rice",
+      "displayName": "01.12 — Growing of rice",
+      "section": {
+        "code": "A",
+        "name": "Agriculture, forestry and fishing"
+      },
+      "emissionFactorKgCO2ePerEUR": 3.676724,
+      "emissionFactorTonnesCO2ePerMEUR": 3676.724468,
+      "emissionFactorNormalized": 0.356844,
+      "totalOutputEUR": 354554811933.6623,
+      "totalOutputMEUR": 354554.811934,
+      "totalOutputNormalized": 0.092276,
+      "numCountries": 27,
+      "dataSource": "EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP",
+      "year": 2022,
+      "exampleSectors": [
+        "Paddy rice"
+      ],
+      "exiobaseActivities": [
+        "Paddy rice"
+      ],
+      "exiobaseCodes": [
+        "p01.a"
+      ],
+      "longDescription": "Growing of rice (e.g. Paddy rice)"
+    },
+    {
+      "naceCode": "01.13",
+      "naceDivision": "01",
+      "naceDescription": "Growing of vegetables and melons, roots and tubers",
+      "displayName": "01.13 — Growing of vegetables and melons, roots and tubers",
+      "section": {
+        "code": "A",
+        "name": "Agriculture, forestry and fishing"
+      },
+      "emissionFactorKgCO2ePerEUR": 0.268672,
+      "emissionFactorTonnesCO2ePerMEUR": 268.671944,
+      "emissionFactorNormalized": 0.023692,
+      "totalOutputEUR": 2107477634826.0261,
+      "totalOutputMEUR": 2107477.634826,
+      "totalOutputNormalized": 0.549235,
+      "numCountries": 49,
+      "dataSource": "EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP",
+      "year": 2022,
+      "exampleSectors": [
+        "Sugar cane, sugar beet",
+        "Vegetables, fruit, nuts"
+      ],
+      "exiobaseActivities": [
+        "Crops nec",
+        "Vegetables, fruit, nuts"
+      ],
+      "exiobaseCodes": [
+        "p01.d",
+        "p01.h"
+      ],
+      "longDescription": "Growing of vegetables and melons, roots and tubers (e.g. Sugar cane, sugar beet, Vegetables, fruit, nuts)"
+    },
+    {
+      "naceCode": "01.16",
+      "naceDivision": "01",
+      "naceDescription": "Growing of fibre crops",
+      "displayName": "01.16 — Growing of fibre crops",
+      "section": {
+        "code": "A",
+        "name": "Agriculture, forestry and fishing"
+      },
+      "emissionFactorKgCO2ePerEUR": 0.327906,
+      "emissionFactorTonnesCO2ePerMEUR": 327.906415,
+      "emissionFactorNormalized": 0.029482,
+      "totalOutputEUR": 122065120842.17668,
+      "totalOutputMEUR": 122065.120842,
+      "totalOutputNormalized": 0.03167,
+      "numCountries": 37,
+      "dataSource": "EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP",
+      "year": 2022,
+      "exampleSectors": [
+        "Plant-based fibers"
+      ],
+      "exiobaseActivities": [
+        "Plant-based fibers"
+      ],
+      "exiobaseCodes": [
+        "p01.g"
+      ],
+      "longDescription": "Growing of fibre crops (e.g. Plant-based fibers)"
+    },
+    {
+      "naceCode": "01.19",
+      "naceDivision": "01",
+      "naceDescription": "Growing of other non-perennial crops",
+      "displayName": "01.19 — Growing of other non-perennial crops",
+      "section": {
+        "code": "A",
+        "name": "Agriculture, forestry and fishing"
+      },
+      "emissionFactorKgCO2ePerEUR": 0.629165,
+      "emissionFactorTonnesCO2ePerMEUR": 629.164643,
+      "emissionFactorNormalized": 0.058932,
+      "totalOutputEUR": 658394072947.771,
+      "totalOutputMEUR": 658394.072948,
+      "totalOutputNormalized": 0.171482,
+      "numCountries": 49,
+      "dataSource": "EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP",
+      "year": 2022,
+      "exampleSectors": [
+        "Cereal grains nec",
+        "Crops nec"
+      ],
+      "exiobaseActivities": [
+        "Crops nec"
+      ],
+      "exiobaseCodes": [
+        "p01.h"
+      ],
+      "longDescription": "Growing of other non-perennial crops (e.g. Cereal grains nec, Crops nec)"
+    },
+    {
+      "naceCode": "01.41",
+      "naceDivision": "01",
+      "naceDescription": "Raising of dairy cattle",
+      "displayName": "01.41 — Raising of dairy cattle",
+      "section": {
+        "code": "A",
+        "name": "Agriculture, forestry and fishing"
+      },
+      "emissionFactorKgCO2ePerEUR": 4.531908,
+      "emissionFactorTonnesCO2ePerMEUR": 4531.907678,
+      "emissionFactorNormalized": 0.440442,
+      "totalOutputEUR": 817737959196.7288,
+      "totalOutputMEUR": 817737.959197,
+      "totalOutputNormalized": 0.213021,
+      "numCountries": 49,
+      "dataSource": "EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP",
+      "year": 2022,
+      "exampleSectors": [
+        "Cattle",
+        "Raw milk"
+      ],
+      "exiobaseActivities": [
+        "Raw milk"
+      ],
+      "exiobaseCodes": [
+        "p01.n"
+      ],
+      "longDescription": "Raising of dairy cattle (e.g. Cattle, Raw milk)"
+    },
+    {
+      "naceCode": "01.45",
+      "naceDivision": "01",
+      "naceDescription": "Raising of sheep and goats",
+      "displayName": "01.45 — Raising of sheep and goats",
+      "section": {
+        "code": "A",
+        "name": "Agriculture, forestry and fishing"
+      },
+      "emissionFactorKgCO2ePerEUR": 0.906293,
+      "emissionFactorTonnesCO2ePerMEUR": 906.29335,
+      "emissionFactorNormalized": 0.086022,
+      "totalOutputEUR": 14469472412.164236,
+      "totalOutputMEUR": 14469.472412,
+      "totalOutputNormalized": 0.003622,
+      "numCountries": 49,
+      "dataSource": "EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP",
+      "year": 2022,
+      "exampleSectors": [
+        "Wool, silk-worm cocoons"
+      ],
+      "exiobaseActivities": [
+        "Meat animals nec",
+        "Wool, silk-worm cocoons"
+      ],
+      "exiobaseCodes": [
+        "p01.l",
+        "p01.o"
+      ],
+      "longDescription": "Raising of sheep and goats (e.g. Wool, silk-worm cocoons)"
+    },
+    {
+      "naceCode": "01.46",
+      "naceDivision": "01",
+      "naceDescription": "Raising of swine/pigs",
+      "displayName": "01.46 — Raising of swine/pigs",
+      "section": {
+        "code": "A",
+        "name": "Agriculture, forestry and fishing"
+      },
+      "emissionFactorKgCO2ePerEUR": 0.449295,
+      "emissionFactorTonnesCO2ePerMEUR": 449.295102,
+      "emissionFactorNormalized": 0.041349,
+      "totalOutputEUR": 412145820465.8511,
+      "totalOutputMEUR": 412145.820466,
+      "totalOutputNormalized": 0.107289,
+      "numCountries": 49,
+      "dataSource": "EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP",
+      "year": 2022,
+      "exampleSectors": [
+        "Pigs"
+      ],
+      "exiobaseActivities": [
+        "Pigs"
+      ],
+      "exiobaseCodes": [
+        "p01.j"
+      ],
+      "longDescription": "Raising of swine/pigs (e.g. Pigs)"
+    },
+    {
+      "naceCode": "01.47",
+      "naceDivision": "01",
+      "naceDescription": "Raising of poultry",
+      "displayName": "01.47 — Raising of poultry",
+      "section": {
+        "code": "A",
+        "name": "Agriculture, forestry and fishing"
+      },
+      "emissionFactorKgCO2ePerEUR": 0.377322,
+      "emissionFactorTonnesCO2ePerMEUR": 377.321538,
+      "emissionFactorNormalized": 0.034313,
+      "totalOutputEUR": 471480566640.0576,
+      "totalOutputMEUR": 471480.56664,
+      "totalOutputNormalized": 0.122757,
+      "numCountries": 49,
+      "dataSource": "EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP",
+      "year": 2022,
+      "exampleSectors": [
+        "Poultry"
+      ],
+      "exiobaseActivities": [
+        "Poultry"
+      ],
+      "exiobaseCodes": [
+        "p01.k"
+      ],
+      "longDescription": "Raising of poultry (e.g. Poultry)"
+    },
+    {
+      "naceCode": "01.49",
+      "naceDivision": "01",
+      "naceDescription": "Raising of other animals",
+      "displayName": "01.49 — Raising of other animals",
+      "section": {
+        "code": "A",
+        "name": "Agriculture, forestry and fishing"
+      },
+      "emissionFactorKgCO2ePerEUR": 1.647928,
+      "emissionFactorTonnesCO2ePerMEUR": 1647.928171,
+      "emissionFactorNormalized": 0.15852,
+      "totalOutputEUR": 237389629865.8785,
+      "totalOutputMEUR": 237389.629866,
+      "totalOutputNormalized": 0.061733,
+      "numCountries": 49,
+      "dataSource": "EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP",
+      "year": 2022,
+      "exampleSectors": [
+        "Animal products nec",
+        "Meat animals nec"
+      ],
+      "exiobaseActivities": [
+        "Animal products nec",
+        "Meat animals nec"
+      ],
+      "exiobaseCodes": [
+        "p01.l",
+        "p01.m"
+      ],
+      "longDescription": "Raising of other animals (e.g. Animal products nec, Meat animals nec)"
+    },
+    {
+      "naceCode": "02.20",
+      "naceDivision": "02",
+      "naceDescription": "Logging",
+      "displayName": "02.20 — Logging",
+      "section": {
+        "code": "A",
+        "name": "Agriculture, forestry and fishing"
+      },
+      "emissionFactorKgCO2ePerEUR": 0.35754,
+      "emissionFactorTonnesCO2ePerMEUR": 357.540487,
+      "emissionFactorNormalized": 0.032379,
+      "totalOutputEUR": 178612145815.5437,
+      "totalOutputMEUR": 178612.145816,
+      "totalOutputNormalized": 0.046411,
+      "numCountries": 48,
+      "dataSource": "EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP",
+      "year": 2022,
+      "exampleSectors": [
+        "Products of forestry, logging and related services (02)"
+      ],
+      "exiobaseActivities": [
+        "Products of forestry, logging and related services (02)"
+      ],
+      "exiobaseCodes": [
+        "p02"
+      ],
+      "longDescription": "Logging (e.g. Products of forestry, logging and related services (02))"
+    },
+    {
+      "naceCode": "03.11",
+      "naceDivision": "03",
+      "naceDescription": "Marine fishing",
+      "displayName": "03.11 — Marine fishing",
+      "section": {
+        "code": "A",
+        "name": "Agriculture, forestry and fishing"
+      },
+      "emissionFactorKgCO2ePerEUR": 0.176967,
+      "emissionFactorTonnesCO2ePerMEUR": 176.96725,
+      "emissionFactorNormalized": 0.014727,
+      "totalOutputEUR": 482113557034.3228,
+      "totalOutputMEUR": 482113.557034,
+      "totalOutputNormalized": 0.125529,
+      "numCountries": 49,
+      "dataSource": "EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP",
+      "year": 2022,
+      "exampleSectors": [
+        "Fish and other fishing products",
+        "services incidental of fishing (05)"
+      ],
+      "exiobaseActivities": [
+        "Fish and other fishing products; services incidental of fishing (05)"
+      ],
+      "exiobaseCodes": [
+        "p05"
+      ],
+      "longDescription": "Marine fishing (e.g. Fish and other fishing products, services incidental of fishing (05))"
+    },
+    {
+      "naceCode": "05.10",
+      "naceDivision": "05",
+      "naceDescription": "Mining of hard coal",
+      "displayName": "05.10 — Mining of hard coal",
+      "section": {
+        "code": "B",
+        "name": "Mining and quarrying"
+      },
+      "emissionFactorKgCO2ePerEUR": 1.52775,
+      "emissionFactorTonnesCO2ePerMEUR": 1527.749907,
+      "emissionFactorNormalized": 0.146772,
+      "totalOutputEUR": 1048345438875.5996,
+      "totalOutputMEUR": 1048345.438876,
+      "totalOutputNormalized": 0.273136,
+      "numCountries": 35,
+      "dataSource": "EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP",
+      "year": 2022,
+      "exampleSectors": [
+        "Other Bituminous Coal",
+        "Anthracite"
+      ],
+      "exiobaseActivities": [
+        "Anthracite",
+        "Coking Coal",
+        "Other Bituminous Coal",
+        "Patent Fuel",
+        "Sub-Bituminous Coal"
+      ],
+      "exiobaseCodes": [
+        "p10.a",
+        "p10.b",
+        "p10.c",
+        "p10.d",
+        "p10.e"
+      ],
+      "longDescription": "Mining of hard coal (e.g. Other Bituminous Coal, Anthracite)"
+    },
+    {
+      "naceCode": "05.20",
+      "naceDivision": "05",
+      "naceDescription": "Unknown NACE description",
+      "displayName": "05.20 — Unknown NACE description",
+      "section": {
+        "code": "B",
+        "name": "Mining and quarrying"
+      },
+      "emissionFactorKgCO2ePerEUR": 1.577814,
+      "emissionFactorTonnesCO2ePerMEUR": 1577.814138,
+      "emissionFactorNormalized": 0.151666,
+      "totalOutputEUR": 9711223453.207947,
+      "totalOutputMEUR": 9711.223453,
+      "totalOutputNormalized": 0.002381,
+      "numCountries": 23,
+      "dataSource": "EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP",
+      "year": 2022,
+      "exampleSectors": [
+        "Lignite/Brown Coal"
+      ],
+      "exiobaseActivities": [
+        "Lignite/Brown Coal"
+      ],
+      "exiobaseCodes": [
+        "p10.f"
+      ],
+      "longDescription": "Unknown NACE description (e.g. Lignite/Brown Coal)"
+    },
+    {
+      "naceCode": "06.10",
+      "naceDivision": "06",
+      "naceDescription": "Extraction of crude petroleum",
+      "displayName": "06.10 — Extraction of crude petroleum",
+      "section": {
+        "code": "B",
+        "name": "Mining and quarrying"
+      },
+      "emissionFactorKgCO2ePerEUR": 0.676417,
+      "emissionFactorTonnesCO2ePerMEUR": 676.416612,
+      "emissionFactorNormalized": 0.063551,
+      "totalOutputEUR": 3033618518872.0967,
+      "totalOutputMEUR": 3033618.518872,
+      "totalOutputNormalized": 0.790665,
+      "numCountries": 44,
+      "dataSource": "EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP",
+      "year": 2022,
+      "exampleSectors": [
+        "Crude petroleum and services related to crude oil extraction, excluding surveying",
+        "Other Hydrocarbons"
+      ],
+      "exiobaseActivities": [
+        "Crude petroleum and services related to crude oil extraction, excluding surveying"
+      ],
+      "exiobaseCodes": [
+        "p11.a"
+      ],
+      "longDescription": "Extraction of crude petroleum (e.g. Crude petroleum and services related to crude oil extraction, excluding surveying, Other Hydrocarbons)"
+    },
+    {
+      "naceCode": "06.20",
+      "naceDivision": "06",
+      "naceDescription": "Extraction of natural gas",
+      "displayName": "06.20 — Extraction of natural gas",
+      "section": {
+        "code": "B",
+        "name": "Mining and quarrying"
+      },
+      "emissionFactorKgCO2ePerEUR": 1.443574,
+      "emissionFactorTonnesCO2ePerMEUR": 1443.574353,
+      "emissionFactorNormalized": 0.138544,
+      "totalOutputEUR": 730027660528.3159,
+      "totalOutputMEUR": 730027.660528,
+      "totalOutputNormalized": 0.190156,
+      "numCountries": 45,
+      "dataSource": "EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP",
+      "year": 2022,
+      "exampleSectors": [
+        "Natural Gas Liquids",
+        "Natural gas and services related to natural gas extraction, excluding surveying"
+      ],
+      "exiobaseActivities": [
+        "Natural Gas Liquids",
+        "Natural gas and services related to natural gas extraction, excluding surveying",
+        "Other Hydrocarbons"
+      ],
+      "exiobaseCodes": [
+        "p11.b",
+        "p11.b.1",
+        "p11.c"
+      ],
+      "longDescription": "Extraction of natural gas (e.g. Natural Gas Liquids, Natural gas and services related to natural gas extraction, excluding surveying)"
+    },
+    {
+      "naceCode": "07.10",
+      "naceDivision": "07",
+      "naceDescription": "Mining of iron ores",
+      "displayName": "07.10 — Mining of iron ores",
+      "section": {
+        "code": "B",
+        "name": "Mining and quarrying"
+      },
+      "emissionFactorKgCO2ePerEUR": 0.105193,
+      "emissionFactorTonnesCO2ePerMEUR": 105.192893,
+      "emissionFactorNormalized": 0.007711,
+      "totalOutputEUR": 12724580372.653486,
+      "totalOutputMEUR": 12724.580373,
+      "totalOutputNormalized": 0.003167,
+      "numCountries": 26,
+      "dataSource": "EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP",
+      "year": 2022,
+      "exampleSectors": [
+        "Iron ores"
+      ],
+      "exiobaseActivities": [
+        "Iron ores"
+      ],
+      "exiobaseCodes": [
+        "p13.1"
+      ],
+      "longDescription": "Mining of iron ores (e.g. Iron ores)"
+    },
+    {
+      "naceCode": "07.21",
+      "naceDivision": "07",
+      "naceDescription": "Mining of uranium and thorium ores",
+      "displayName": "07.21 — Mining of uranium and thorium ores",
+      "section": {
+        "code": "B",
+        "name": "Mining and quarrying"
+      },
+      "emissionFactorKgCO2ePerEUR": 3.569644,
+      "emissionFactorTonnesCO2ePerMEUR": 3569.644039,
+      "emissionFactorNormalized": 0.346377,
+      "totalOutputEUR": 577026349.556326,
+      "totalOutputMEUR": 577.02635,
+      "totalOutputNormalized": 0,
+      "numCountries": 16,
+      "dataSource": "EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP",
+      "year": 2022,
+      "exampleSectors": [
+        "Uranium and thorium ores (12)"
+      ],
+      "exiobaseActivities": [
+        "Uranium and thorium ores (12)"
+      ],
+      "exiobaseCodes": [
+        "p12"
+      ],
+      "longDescription": "Mining of uranium and thorium ores (e.g. Uranium and thorium ores (12))"
+    },
+    {
+      "naceCode": "07.29",
+      "naceDivision": "07",
+      "naceDescription": "Mining of other non-ferrous metal ores",
+      "displayName": "07.29 — Mining of other non-ferrous metal ores",
+      "section": {
+        "code": "B",
+        "name": "Mining and quarrying"
+      },
+      "emissionFactorKgCO2ePerEUR": 0.228982,
+      "emissionFactorTonnesCO2ePerMEUR": 228.982191,
+      "emissionFactorNormalized": 0.019812,
+      "totalOutputEUR": 118710250399.57643,
+      "totalOutputMEUR": 118710.2504,
+      "totalOutputNormalized": 0.030795,
+      "numCountries": 43,
+      "dataSource": "EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP",
+      "year": 2022,
+      "exampleSectors": [
+        "Other non-ferrous metal ores and concentrates",
+        "Aluminium ores and concentrates"
+      ],
+      "exiobaseActivities": [
+        "Aluminium ores and concentrates",
+        "Copper ores and concentrates",
+        "Lead, zinc and tin ores and concentrates",
+        "Nickel ores and concentrates",
+        "Other non-ferrous metal ores and concentrates",
+        "Precious metal ores and concentrates"
+      ],
+      "exiobaseCodes": [
+        "p13.20.11",
+        "p13.20.12",
+        "p13.20.13",
+        "p13.20.14",
+        "p13.20.15",
+        "p13.20.16"
+      ],
+      "longDescription": "Mining of other non-ferrous metal ores (e.g. Other non-ferrous metal ores and concentrates, Aluminium ores and concentrates)"
+    },
+    {
+      "naceCode": "08.11",
+      "naceDivision": "08",
+      "naceDescription": "Quarrying of ornamental and building stone",
+      "displayName": "08.11 — Quarrying of ornamental and building stone",
+      "section": {
+        "code": "B",
+        "name": "Mining and quarrying"
+      },
+      "emissionFactorKgCO2ePerEUR": 0.139139,
+      "emissionFactorTonnesCO2ePerMEUR": 139.13937,
+      "emissionFactorNormalized": 0.011029,
+      "totalOutputEUR": 88349770852.68228,
+      "totalOutputMEUR": 88349.770853,
+      "totalOutputNormalized": 0.022881,
+      "numCountries": 47,
+      "dataSource": "EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP",
+      "year": 2022,
+      "exampleSectors": [
+        "Stone"
+      ],
+      "exiobaseActivities": [
+        "Stone"
+      ],
+      "exiobaseCodes": [
+        "p14.1"
+      ],
+      "longDescription": "Quarrying of ornamental and building stone (e.g. Stone)"
+    },
+    {
+      "naceCode": "08.12",
+      "naceDivision": "08",
+      "naceDescription": "Operation of gravel and sand pits",
+      "displayName": "08.12 — Operation of gravel and sand pits",
+      "section": {
+        "code": "B",
+        "name": "Mining and quarrying"
+      },
+      "emissionFactorKgCO2ePerEUR": 0.221598,
+      "emissionFactorTonnesCO2ePerMEUR": 221.598493,
+      "emissionFactorNormalized": 0.01909,
+      "totalOutputEUR": 123878593958.89398,
+      "totalOutputMEUR": 123878.593959,
+      "totalOutputNormalized": 0.032143,
+      "numCountries": 48,
+      "dataSource": "EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP",
+      "year": 2022,
+      "exampleSectors": [
+        "Sand and clay"
+      ],
+      "exiobaseActivities": [
+        "Sand and clay"
+      ],
+      "exiobaseCodes": [
+        "p14.2"
+      ],
+      "longDescription": "Operation of gravel and sand pits (e.g. Sand and clay)"
+    },
+    {
+      "naceCode": "08.91",
+      "naceDivision": "08",
+      "naceDescription": "Mining of chemical and fertiliser minerals",
+      "displayName": "08.91 — Mining of chemical and fertiliser minerals",
+      "section": {
+        "code": "B",
+        "name": "Mining and quarrying"
+      },
+      "emissionFactorKgCO2ePerEUR": 0.423927,
+      "emissionFactorTonnesCO2ePerMEUR": 423.927037,
+      "emissionFactorNormalized": 0.038869,
+      "totalOutputEUR": 32391242100.87336,
+      "totalOutputMEUR": 32391.242101,
+      "totalOutputNormalized": 0.008293,
+      "numCountries": 42,
+      "dataSource": "EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP",
+      "year": 2022,
+      "exampleSectors": [
+        "Chemical and fertilizer minerals, salt and other mining and quarrying products n.e.c."
+      ],
+      "exiobaseActivities": [
+        "Chemical and fertilizer minerals, salt and other mining and quarrying products n.e.c."
+      ],
+      "exiobaseCodes": [
+        "p14.3"
+      ],
+      "longDescription": "Mining of chemical and fertiliser minerals (e.g. Chemical and fertilizer minerals, salt and other mining and quarrying products n.e.c.)"
+    },
+    {
+      "naceCode": "08.92",
+      "naceDivision": "08",
+      "naceDescription": "Unknown NACE description",
+      "displayName": "08.92 — Unknown NACE description",
+      "section": {
+        "code": "B",
+        "name": "Mining and quarrying"
+      },
+      "emissionFactorKgCO2ePerEUR": 0.679781,
+      "emissionFactorTonnesCO2ePerMEUR": 679.781265,
+      "emissionFactorNormalized": 0.06388,
+      "totalOutputEUR": 4082251310.397588,
+      "totalOutputMEUR": 4082.25131,
+      "totalOutputNormalized": 0.000914,
+      "numCountries": 19,
+      "dataSource": "EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP",
+      "year": 2022,
+      "exampleSectors": [
+        "BKB/Peat Briquettes",
+        "Peat"
+      ],
+      "exiobaseActivities": [
+        "Peat"
+      ],
+      "exiobaseCodes": [
+        "p10.h"
+      ],
+      "longDescription": "Unknown NACE description (e.g. BKB/Peat Briquettes, Peat)"
+    },
+    {
+      "naceCode": "10.11",
+      "naceDivision": "10",
+      "naceDescription": "Processing and preserving of meat",
+      "displayName": "10.11 — Processing and preserving of meat",
+      "section": {
+        "code": "C",
+        "name": "Manufacturing"
+      },
+      "emissionFactorKgCO2ePerEUR": 0.358123,
+      "emissionFactorTonnesCO2ePerMEUR": 358.123226,
+      "emissionFactorNormalized": 0.032436,
+      "totalOutputEUR": 391608473116.4962,
+      "totalOutputMEUR": 391608.473116,
+      "totalOutputNormalized": 0.101936,
+      "numCountries": 49,
+      "dataSource": "EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP",
+      "year": 2022,
+      "exampleSectors": [
+        "Products of meat cattle"
+      ],
+      "exiobaseActivities": [
+        "Meat products nec",
+        "Products of meat cattle",
+        "Products of meat pigs"
+      ],
+      "exiobaseCodes": [
+        "p15.a",
+        "p15.b",
+        "p15.d"
+      ],
+      "longDescription": "Processing and preserving of meat (e.g. Products of meat cattle)"
+    },
+    {
+      "naceCode": "10.12",
+      "naceDivision": "10",
+      "naceDescription": "Processing and preserving of poultry meat",
+      "displayName": "10.12 — Processing and preserving of poultry meat",
+      "section": {
+        "code": "C",
+        "name": "Manufacturing"
+      },
+      "emissionFactorKgCO2ePerEUR": 0.225663,
+      "emissionFactorTonnesCO2ePerMEUR": 225.662812,
+      "emissionFactorNormalized": 0.019487,
+      "totalOutputEUR": 807140213849.9647,
+      "totalOutputMEUR": 807140.21385,
+      "totalOutputNormalized": 0.210258,
+      "numCountries": 49,
+      "dataSource": "EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP",
+      "year": 2022,
+      "exampleSectors": [
+        "Products of meat pigs",
+        "Products of meat poultry"
+      ],
+      "exiobaseActivities": [
+        "Products of meat poultry"
+      ],
+      "exiobaseCodes": [
+        "p15.c"
+      ],
+      "longDescription": "Processing and preserving of poultry meat (e.g. Products of meat pigs, Products of meat poultry)"
+    },
+    {
+      "naceCode": "10.13",
+      "naceDivision": "10",
+      "naceDescription": "Production of meat and poultry meat products",
+      "displayName": "10.13 — Production of meat and poultry meat products",
+      "section": {
+        "code": "C",
+        "name": "Manufacturing"
+      },
+      "emissionFactorKgCO2ePerEUR": 0.123316,
+      "emissionFactorTonnesCO2ePerMEUR": 123.315767,
+      "emissionFactorNormalized": 0.009483,
+      "totalOutputEUR": 265436494960.26328,
+      "totalOutputMEUR": 265436.49496,
+      "totalOutputNormalized": 0.069045,
+      "numCountries": 49,
+      "dataSource": "EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP",
+      "year": 2022,
+      "exampleSectors": [
+        "Meat products nec"
+      ],
+      "exiobaseActivities": [
+        "Meat products nec",
+        "Products of meat cattle",
+        "Products of meat pigs",
+        "Products of meat poultry"
+      ],
+      "exiobaseCodes": [
+        "p15.a",
+        "p15.b",
+        "p15.c",
+        "p15.d"
+      ],
+      "longDescription": "Production of meat and poultry meat products (e.g. Meat products nec)"
+    },
+    {
+      "naceCode": "10.41",
+      "naceDivision": "10",
+      "naceDescription": "Unknown NACE description",
+      "displayName": "10.41 — Unknown NACE description",
+      "section": {
+        "code": "C",
+        "name": "Manufacturing"
+      },
+      "emissionFactorKgCO2ePerEUR": 0.27781,
+      "emissionFactorTonnesCO2ePerMEUR": 277.810042,
+      "emissionFactorNormalized": 0.024585,
+      "totalOutputEUR": 171480192138.49008,
+      "totalOutputMEUR": 171480.192138,
+      "totalOutputNormalized": 0.044552,
+      "numCountries": 49,
+      "dataSource": "EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP",
+      "year": 2022,
+      "exampleSectors": [
+        "products of Vegetable oils and fats"
+      ],
+      "exiobaseActivities": [
+        "products of Vegetable oils and fats"
+      ],
+      "exiobaseCodes": [
+        "p15.e"
+      ],
+      "longDescription": "Unknown NACE description (e.g. products of Vegetable oils and fats)"
+    },
+    {
+      "naceCode": "10.51",
+      "naceDivision": "10",
+      "naceDescription": "Operation of dairies and cheese making",
+      "displayName": "10.51 — Operation of dairies and cheese making",
+      "section": {
+        "code": "C",
+        "name": "Manufacturing"
+      },
+      "emissionFactorKgCO2ePerEUR": 0.170735,
+      "emissionFactorTonnesCO2ePerMEUR": 170.734896,
+      "emissionFactorNormalized": 0.014118,
+      "totalOutputEUR": 615487324233.2112,
+      "totalOutputMEUR": 615487.324233,
+      "totalOutputNormalized": 0.160297,
+      "numCountries": 49,
+      "dataSource": "EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP",
+      "year": 2022,
+      "exampleSectors": [
+        "Dairy products"
+      ],
+      "exiobaseActivities": [
+        "Dairy products"
+      ],
+      "exiobaseCodes": [
+        "p15.f"
+      ],
+      "longDescription": "Operation of dairies and cheese making (e.g. Dairy products)"
+    },
+    {
+      "naceCode": "10.61",
+      "naceDivision": "10",
+      "naceDescription": "Unknown NACE description",
+      "displayName": "10.61 — Unknown NACE description",
+      "section": {
+        "code": "C",
+        "name": "Manufacturing"
+      },
+      "emissionFactorKgCO2ePerEUR": 0.343755,
+      "emissionFactorTonnesCO2ePerMEUR": 343.754896,
+      "emissionFactorNormalized": 0.031031,
+      "totalOutputEUR": 233764918400.61066,
+      "totalOutputMEUR": 233764.918401,
+      "totalOutputNormalized": 0.060788,
+      "numCountries": 49,
+      "dataSource": "EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP",
+      "year": 2022,
+      "exampleSectors": [
+        "Processed rice"
+      ],
+      "exiobaseActivities": [
+        "Food products nec",
+        "Processed rice"
+      ],
+      "exiobaseCodes": [
+        "p15.g",
+        "p15.i"
+      ],
+      "longDescription": "Unknown NACE description (e.g. Processed rice)"
+    },
+    {
+      "naceCode": "10.81",
+      "naceDivision": "10",
+      "naceDescription": "Manufacture of sugar",
+      "displayName": "10.81 — Manufacture of sugar",
+      "section": {
+        "code": "C",
+        "name": "Manufacturing"
+      },
+      "emissionFactorKgCO2ePerEUR": 0.371587,
+      "emissionFactorTonnesCO2ePerMEUR": 371.587415,
+      "emissionFactorNormalized": 0.033752,
+      "totalOutputEUR": 63034327162.30891,
+      "totalOutputMEUR": 63034.327162,
+      "totalOutputNormalized": 0.016282,
+      "numCountries": 49,
+      "dataSource": "EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP",
+      "year": 2022,
+      "exampleSectors": [
+        "Sugar"
+      ],
+      "exiobaseActivities": [
+        "Sugar"
+      ],
+      "exiobaseCodes": [
+        "p15.h"
+      ],
+      "longDescription": "Manufacture of sugar (e.g. Sugar)"
+    },
+    {
+      "naceCode": "10.89",
+      "naceDivision": "10",
+      "naceDescription": "Manufacture of other food products n.e.c.",
+      "displayName": "10.89 — Manufacture of other food products n.e.c.",
+      "section": {
+        "code": "C",
+        "name": "Manufacturing"
+      },
+      "emissionFactorKgCO2ePerEUR": 0.066972,
+      "emissionFactorTonnesCO2ePerMEUR": 66.972296,
+      "emissionFactorNormalized": 0.003975,
+      "totalOutputEUR": 3836643326244.278,
+      "totalOutputMEUR": 3836643.326244,
+      "totalOutputNormalized": 1,
+      "numCountries": 49,
+      "dataSource": "EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP",
+      "year": 2022,
+      "exampleSectors": [
+        "Food products nec"
+      ],
+      "exiobaseActivities": [
+        "Food products nec"
+      ],
+      "exiobaseCodes": [
+        "p15.i"
+      ],
+      "longDescription": "Manufacture of other food products n.e.c. (e.g. Food products nec)"
+    },
+    {
+      "naceCode": "11.07",
+      "naceDivision": "11",
+      "naceDescription": "Manufacture of soft drinks",
+      "displayName": "11.07 — Manufacture of soft drinks",
+      "section": {
+        "code": "C",
+        "name": "Manufacturing"
+      },
+      "emissionFactorKgCO2ePerEUR": 0.115115,
+      "emissionFactorTonnesCO2ePerMEUR": 115.1149,
+      "emissionFactorNormalized": 0.008681,
+      "totalOutputEUR": 929777169482.1055,
+      "totalOutputMEUR": 929777.169482,
+      "totalOutputNormalized": 0.242227,
+      "numCountries": 49,
+      "dataSource": "EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP",
+      "year": 2022,
+      "exampleSectors": [
+        "Beverages"
+      ],
+      "exiobaseActivities": [
+        "Beverages"
+      ],
+      "exiobaseCodes": [
+        "p15.j"
+      ],
+      "longDescription": "Manufacture of soft drinks (e.g. Beverages)"
+    },
+    {
+      "naceCode": "17.11",
+      "naceDivision": "17",
+      "naceDescription": "Manufacture of pulp",
+      "displayName": "17.11 — Manufacture of pulp",
+      "section": {
+        "code": "C",
+        "name": "Manufacturing"
+      },
+      "emissionFactorKgCO2ePerEUR": 0.878086,
+      "emissionFactorTonnesCO2ePerMEUR": 878.085557,
+      "emissionFactorNormalized": 0.083265,
+      "totalOutputEUR": 151120642754.46408,
+      "totalOutputMEUR": 151120.642754,
+      "totalOutputNormalized": 0.039244,
+      "numCountries": 48,
+      "dataSource": "EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP",
+      "year": 2022,
+      "exampleSectors": [
+        "Pulp"
+      ],
+      "exiobaseActivities": [
+        "Paper waste to recycling",
+        "Pulp"
+      ],
+      "exiobaseCodes": [
+        "p21.1",
+        "p21.w.1"
+      ],
+      "longDescription": "Manufacture of pulp (e.g. Pulp)"
+    },
+    {
+      "naceCode": "19.20",
+      "naceDivision": "19",
+      "naceDescription": "Manufacture of refined petroleum products",
+      "displayName": "19.20 — Manufacture of refined petroleum products",
+      "section": {
+        "code": "C",
+        "name": "Manufacturing"
+      },
+      "emissionFactorKgCO2ePerEUR": 0.265237,
+      "emissionFactorTonnesCO2ePerMEUR": 265.237423,
+      "emissionFactorNormalized": 0.023356,
+      "totalOutputEUR": 1761297964304.897,
+      "totalOutputMEUR": 1761297.964305,
+      "totalOutputNormalized": 0.458991,
+      "numCountries": 49,
+      "dataSource": "EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP",
+      "year": 2022,
+      "exampleSectors": [
+        "Bitumen",
+        "Kerosene"
+      ],
+      "exiobaseActivities": [
+        "Aviation Gasoline",
+        "BKB/Peat Briquettes",
+        "Bitumen",
+        "Coal Tar",
+        "Ethane",
+        "Gas Coke",
+        "Gas/Diesel Oil",
+        "Gasoline Type Jet Fuel",
+        "Heavy Fuel Oil",
+        "Kerosene",
+        "Kerosene Type Jet Fuel",
+        "Liquefied Petroleum Gases (LPG)",
+        "Lubricants",
+        "Motor Gasoline",
+        "Naphtha",
+        "Non-specified Petroleum Products",
+        "Paraffin Waxes",
+        "Petroleum Coke",
+        "Refinery Feedstocks",
+        "Refinery Gas",
+        "White Spirit & SBP"
+      ],
+      "exiobaseCodes": [
+        "p10.g",
+        "p23.1.b",
+        "p23.1.c",
+        "p23.20.a",
+        "p23.20.b",
+        "p23.20.c",
+        "p23.20.d",
+        "p23.20.e",
+        "p23.20.f",
+        "p23.20.g",
+        "p23.20.h",
+        "p23.20.i",
+        "p23.20.j",
+        "p23.20.k",
+        "p23.20.l",
+        "p23.20.m",
+        "p23.20.n",
+        "p23.20.o",
+        "p23.20.p",
+        "p23.20.q",
+        "p23.20.r"
+      ],
+      "longDescription": "Manufacture of refined petroleum products (e.g. Bitumen, Kerosene)"
+    },
+    {
+      "naceCode": "20.13",
+      "naceDivision": "20",
+      "naceDescription": "Manufacture of other inorganic basic chemicals",
+      "displayName": "20.13 — Manufacture of other inorganic basic chemicals",
+      "section": {
+        "code": "C",
+        "name": "Manufacturing"
+      },
+      "emissionFactorKgCO2ePerEUR": 0.026312,
+      "emissionFactorTonnesCO2ePerMEUR": 26.31204,
+      "emissionFactorNormalized": 0,
+      "totalOutputEUR": 57372734737.049545,
+      "totalOutputMEUR": 57372.734737,
+      "totalOutputNormalized": 0.014806,
+      "numCountries": 38,
+      "dataSource": "EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP",
+      "year": 2022,
+      "exampleSectors": [
+        "Nuclear fuel"
+      ],
+      "exiobaseActivities": [
+        "Chemicals nec"
+      ],
+      "exiobaseCodes": [
+        "p24.d"
+      ],
+      "longDescription": "Manufacture of other inorganic basic chemicals (e.g. Nuclear fuel)"
+    },
+    {
+      "naceCode": "20.15",
+      "naceDivision": "20",
+      "naceDescription": "Manufacture of fertilisers and nitrogen compounds",
+      "displayName": "20.15 — Manufacture of fertilisers and nitrogen compounds",
+      "section": {
+        "code": "C",
+        "name": "Manufacturing"
+      },
+      "emissionFactorKgCO2ePerEUR": 0.570625,
+      "emissionFactorTonnesCO2ePerMEUR": 570.624522,
+      "emissionFactorNormalized": 0.053209,
+      "totalOutputEUR": 749702211297.6803,
+      "totalOutputMEUR": 749702.211298,
+      "totalOutputNormalized": 0.195285,
+      "numCountries": 47,
+      "dataSource": "EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP",
+      "year": 2022,
+      "exampleSectors": [
+        "N-fertiliser",
+        "P- and other fertiliser"
+      ],
+      "exiobaseActivities": [
+        "Chemicals nec",
+        "N-fertiliser",
+        "P- and other fertiliser"
+      ],
+      "exiobaseCodes": [
+        "p24.b",
+        "p24.c",
+        "p24.d"
+      ],
+      "longDescription": "Manufacture of fertilisers and nitrogen compounds (e.g. N-fertiliser, P- and other fertiliser)"
+    },
+    {
+      "naceCode": "20.16",
+      "naceDivision": "20",
+      "naceDescription": "Manufacture of plastics in primary forms",
+      "displayName": "20.16 — Manufacture of plastics in primary forms",
+      "section": {
+        "code": "C",
+        "name": "Manufacturing"
+      },
+      "emissionFactorKgCO2ePerEUR": 0.299297,
+      "emissionFactorTonnesCO2ePerMEUR": 299.297032,
+      "emissionFactorNormalized": 0.026686,
+      "totalOutputEUR": 1453549051028.017,
+      "totalOutputMEUR": 1453549.051028,
+      "totalOutputNormalized": 0.378766,
+      "numCountries": 47,
+      "dataSource": "EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP",
+      "year": 2022,
+      "exampleSectors": [
+        "Plastics, basic"
+      ],
+      "exiobaseActivities": [
+        "Plastics, basic",
+        "Recycled waste plastic"
+      ],
+      "exiobaseCodes": [
+        "p24.a",
+        "p24.a.w"
+      ],
+      "longDescription": "Manufacture of plastics in primary forms (e.g. Plastics, basic)"
+    },
+    {
+      "naceCode": "23.13",
+      "naceDivision": "23",
+      "naceDescription": "Manufacture of hollow glass",
+      "displayName": "23.13 — Manufacture of hollow glass",
+      "section": {
+        "code": "C",
+        "name": "Manufacturing"
+      },
+      "emissionFactorKgCO2ePerEUR": 0.184077,
+      "emissionFactorTonnesCO2ePerMEUR": 184.076503,
+      "emissionFactorNormalized": 0.015422,
+      "totalOutputEUR": 745446464363.8033,
+      "totalOutputMEUR": 745446.464364,
+      "totalOutputNormalized": 0.194175,
+      "numCountries": 47,
+      "dataSource": "EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP",
+      "year": 2022,
+      "exampleSectors": [
+        "Glass and glass products"
+      ],
+      "exiobaseActivities": [
+        "Glass and glass products",
+        "Recycled glass waste"
+      ],
+      "exiobaseCodes": [
+        "p26.a",
+        "p26.a.w"
+      ],
+      "longDescription": "Manufacture of hollow glass (e.g. Glass and glass products)"
+    },
+    {
+      "naceCode": "23.49",
+      "naceDivision": "23",
+      "naceDescription": "Manufacture of other ceramic products",
+      "displayName": "23.49 — Manufacture of other ceramic products",
+      "section": {
+        "code": "C",
+        "name": "Manufacturing"
+      },
+      "emissionFactorKgCO2ePerEUR": 0.312276,
+      "emissionFactorTonnesCO2ePerMEUR": 312.276443,
+      "emissionFactorNormalized": 0.027954,
+      "totalOutputEUR": 612063650367.6487,
+      "totalOutputMEUR": 612063.650368,
+      "totalOutputNormalized": 0.159405,
+      "numCountries": 48,
+      "dataSource": "EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP",
+      "year": 2022,
+      "exampleSectors": [
+        "Ceramic goods"
+      ],
+      "exiobaseActivities": [
+        "Ceramic goods"
+      ],
+      "exiobaseCodes": [
+        "p26.b"
+      ],
+      "longDescription": "Manufacture of other ceramic products (e.g. Ceramic goods)"
+    },
+    {
+      "naceCode": "23.51",
+      "naceDivision": "23",
+      "naceDescription": "Manufacture of cement",
+      "displayName": "23.51 — Manufacture of cement",
+      "section": {
+        "code": "C",
+        "name": "Manufacturing"
+      },
+      "emissionFactorKgCO2ePerEUR": 3.694679,
+      "emissionFactorTonnesCO2ePerMEUR": 3694.678628,
+      "emissionFactorNormalized": 0.3586,
+      "totalOutputEUR": 645177989256.9843,
+      "totalOutputMEUR": 645177.989257,
+      "totalOutputNormalized": 0.168037,
+      "numCountries": 48,
+      "dataSource": "EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP",
+      "year": 2022,
+      "exampleSectors": [
+        "Cement, lime and plaster"
+      ],
+      "exiobaseActivities": [
+        "Cement, lime and plaster",
+        "Recycled ash"
+      ],
+      "exiobaseCodes": [
+        "p26.d",
+        "p26.d.w"
+      ],
+      "longDescription": "Manufacture of cement (e.g. Cement, lime and plaster)"
+    },
+    {
+      "naceCode": "23.99",
+      "naceDivision": "23",
+      "naceDescription": "Manufacture of other non-metallic mineral products n.e.c.",
+      "displayName": "23.99 — Manufacture of other non-metallic mineral products n.e.c.",
+      "section": {
+        "code": "C",
+        "name": "Manufacturing"
+      },
+      "emissionFactorKgCO2ePerEUR": 0.542744,
+      "emissionFactorTonnesCO2ePerMEUR": 542.744484,
+      "emissionFactorNormalized": 0.050484,
+      "totalOutputEUR": 623415263574.5924,
+      "totalOutputMEUR": 623415.263575,
+      "totalOutputNormalized": 0.162364,
+      "numCountries": 48,
+      "dataSource": "EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP",
+      "year": 2022,
+      "exampleSectors": [
+        "Other non-metallic mineral products"
+      ],
+      "exiobaseActivities": [
+        "Other non-metallic mineral products"
+      ],
+      "exiobaseCodes": [
+        "p26.e"
+      ],
+      "longDescription": "Manufacture of other non-metallic mineral products n.e.c. (e.g. Other non-metallic mineral products)"
+    },
+    {
+      "naceCode": "24.42",
+      "naceDivision": "24",
+      "naceDescription": "Aluminium production",
+      "displayName": "24.42 — Aluminium production",
+      "section": {
+        "code": "C",
+        "name": "Manufacturing"
+      },
+      "emissionFactorKgCO2ePerEUR": 0.139962,
+      "emissionFactorTonnesCO2ePerMEUR": 139.962175,
+      "emissionFactorNormalized": 0.01111,
+      "totalOutputEUR": 551892296412.1187,
+      "totalOutputMEUR": 551892.296412,
+      "totalOutputNormalized": 0.143719,
+      "numCountries": 49,
+      "dataSource": "EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP",
+      "year": 2022,
+      "exampleSectors": [
+        "Aluminium and aluminium products"
+      ],
+      "exiobaseActivities": [
+        "Aluminium and aluminium products",
+        "Recycled aluminium waste"
+      ],
+      "exiobaseCodes": [
+        "p27.42",
+        "p27.42.w"
+      ],
+      "longDescription": "Aluminium production (e.g. Aluminium and aluminium products)"
+    },
+    {
+      "naceCode": "24.45",
+      "naceDivision": "24",
+      "naceDescription": "Other non-ferrous metal production",
+      "displayName": "24.45 — Other non-ferrous metal production",
+      "section": {
+        "code": "C",
+        "name": "Manufacturing"
+      },
+      "emissionFactorKgCO2ePerEUR": 0.163958,
+      "emissionFactorTonnesCO2ePerMEUR": 163.958012,
+      "emissionFactorNormalized": 0.013456,
+      "totalOutputEUR": 191054580576.7343,
+      "totalOutputMEUR": 191054.580577,
+      "totalOutputNormalized": 0.049654,
+      "numCountries": 49,
+      "dataSource": "EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP",
+      "year": 2022,
+      "exampleSectors": [
+        "Other non-ferrous metal products"
+      ],
+      "exiobaseActivities": [
+        "Other non-ferrous metal products",
+        "Recycled other non-ferrous metals waste"
+      ],
+      "exiobaseCodes": [
+        "p27.45",
+        "p27.45.w"
+      ],
+      "longDescription": "Other non-ferrous metal production (e.g. Other non-ferrous metal products)"
+    },
+    {
+      "naceCode": "35.11",
+      "naceDivision": "35",
+      "naceDescription": "Production of electricity",
+      "displayName": "35.11 — Production of electricity",
+      "section": {
+        "code": "D",
+        "name": "Electricity, gas, steam and air conditioning supply"
+      },
+      "emissionFactorKgCO2ePerEUR": 10.256016,
+      "emissionFactorTonnesCO2ePerMEUR": 10256.01648,
+      "emissionFactorNormalized": 1,
+      "totalOutputEUR": 1212080031876.6172,
+      "totalOutputMEUR": 1212080.031877,
+      "totalOutputNormalized": 0.315819,
+      "numCountries": 49,
+      "dataSource": "EXIOBASE_3.9.6_IOT_2022_pxp_AR6_GWP",
+      "year": 2022,
+      "exampleSectors": [
+        "Electricity by biomass and waste",
+        "Electricity by coal"
+      ],
+      "exiobaseActivities": [
+        "Electricity by Geothermal",
+        "Electricity by biomass and waste",
+        "Electricity by coal",
+        "Electricity by gas",
+        "Electricity by hydro",
+        "Electricity by nuclear",
+        "Electricity by petroleum and other oil derivatives",
+        "Electricity by solar photovoltaic",
+        "Electricity by solar thermal",
+        "Electricity by tide, wave, ocean",
+        "Electricity by wind",
+        "Electricity nec"
+      ],
+      "exiobaseCodes": [
+        "p40.11.a",
+        "p40.11.b",
+        "p40.11.c",
+        "p40.11.d",
+        "p40.11.e",
+        "p40.11.f",
+        "p40.11.g",
+        "p40.11.h",
+        "p40.11.i",
+        "p40.11.j",
+        "p40.11.k",
+        "p40.11.l"
+      ],
+      "longDescription": "Production of electricity (e.g. Electricity by biomass and waste, Electricity by coal)"
+    }
+  ]
+}
