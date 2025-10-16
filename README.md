@@ -15,6 +15,39 @@ _GitHub Copilot can help you code by offering autocomplete-style suggestions rig
 
 </header>
 
+## Emission Factors Dashboard
+
+A new Vite + React + TypeScript workspace is available under [`apps/dashboard`](apps/dashboard). It provides the first iteration of the emission factors dashboard, including an application shell, Tailwind CSS styling, and placeholder views that load JSON data from the public folder.
+
+### Install dependencies
+
+```bash
+cd apps/dashboard
+npm install
+```
+
+### Run the development server
+
+```bash
+npm run dev
+```
+
+The development server will be available at the address reported by Vite (typically `http://localhost:5173`).
+
+### Build for production
+
+```bash
+npm run build
+```
+
+To preview the production build locally you can run:
+
+```bash
+npm run preview
+```
+
+The dashboard reads its initial dataset from [`apps/dashboard/public/data/emission-factors.json`](apps/dashboard/public/data/emission-factors.json). Replace this file with the generated emission factor export when you are ready to visualise real data.
+
 <!--
   <<< Author notes: Step 1 >>>
   Choose 3-5 steps for your course.
